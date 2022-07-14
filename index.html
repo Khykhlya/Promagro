@@ -4,86 +4,95 @@
     <meta charset="UTF-8">
     <title>Promagroing
     </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table cellspacing="20">
-<tr>
-    <td><img src="Prom.jpg" alt="logo promagroing" height="200" width="125" ></td>
-    <td><h1>Промагроинжиниринг</h1>
-        <h3> <em> От планирования к осуществлению</em> </h3></td>
+    <div class="conteiner">
+            <div class="info ">
+                
+            <img src="Prom.jpg" alt="logo promagroing"
+                class="logo" >
+                <div class="info-text">
+                <h1>Промагроинжиниринг</h1>
+                <h3> От планирования к осуществлению </h3>
+                
+            
+            <div class="contacts">
+                <h4>Наши контакты </h4> 
+                <a href="http://www.promagroing.com" target="_blank" >www.promagroing.com</a> 
+                |
+                dppromagroing@gmail.com
+            </div>
+        </div>
+        </div>
+                         
+            <div class="card bg-yellow">
+                <h2> <strong>Проектная организация</strong> </h2>
+                <ul class="list1">
+                    <li>Специализируемся на проектировании сельскохозяйственных объектов       </li>
+                    <li>Разработка всех разделов проектной документации</li>
+                    <li>От выбора участка до ввода в эксплуатацию</li>
 
-</tr>
+                
+                
+                </ul>
+            </div>
+           
+            <div class="card bg-green">
+                <h2>Наши проекты</h2>
+                <ol class="list">
+                <li> <a target="_blank" href="http://www.promagroing.com/index.php/proektu/selskokhozyajstvennye-ob-ekty">Сельскохозяйственные объекты</a> </li>
+                <li> <a target="_blank" href="http://www.promagroing.com/index.php/proektu/sotsialnaya-infrastruktura">Социальная инфраструктура</a> </li>
+                <li> <a target="_blank" href="http://www.promagroing.com/index.php/proektu/ob-ekty-promyshlennogo-naznacheniya">Объекты промышленного назначения</a> </li>
+                </ol>
+            </div>
+            <div class="card bg-red">
+                <h2>Заказчики</h2>
+                <table class="table">
+                                        <tr>
+                        <td>ПП Владимировское</td>
+                        <td>Свинокомплекс</td>
+                        <td>2020</td> 
+                    </tr>
+                    <tr>
+                        <td>Агрокомбинат Слобожанский</td>
+                        <td>Комбикормовый завод</td>
+                        <td>2014</td>
+                        </tr>
 
-    </table>
+                    <tr>
+                        <td>ООО Серволюкс</td>
+                        <td>Свинокомплекс</td>
+                        <td>2012</td>
+
+                    </tr>
+
+                </table >
+            </div>
+                <div class="contact">
+                    <h2>Связаться с нами</h2>
+                    <form action="/">
+                <div class="row">
+                        <div class="form-groupe">
+                        <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Ввести имя...">
+                    </div>
+                    <div class="form-groupe">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Ввести почту...">
+                </div>
+            </div>
+                <div class="form-groupe">
+                <label for="text">Ваше сообщение</label>
+                <textarea name="" id="text" cols="20" rows="5" 
+                placeholder="Ввести сообщение..."></textarea>
+                </div>
+                <input class="btn" type="submit" value="Связаться!">
+                
+            </div>
+            </form>
     
-    
-    <hr>
-    <h2> <strong>Проектная организация</strong> </h2>
-    <ul>
-        <li>Специализируемся на проектировании сельскохозяйственных объектов       </li>
-        <li>Разработка всех разделов проектной документации</li>
-        <li>От выбора участка до ввода в эксплуатацию</li>
-
-    
-    
-    </ul>
-    <hr>
-<h2>Наши проекты</h2>
-<ol>
-<li> <a href="project.html">Сельскохозяйственные объекты</a> </li>
-<li> <a href="project.html">Социальная инфраструктура</a> </li>
-<li> <a href="project.html">Объекты промышленного назначения</a> </li>
-</ol>
-<hr>
- <h2>Наши контакты </h2> 
- <p> <em> <a href="http://www.promagroing.com" target="_blank" >www.promagroing.com</a> </em> </p>
- <p> <em>dppromagroing@gmail.com</em> </p>
- <hr>
- <h2>Заказчики</h2>
- <table>
-     <tr>
-         <th>Название</th>
-         <th>Объект</th>
-         <th>Год реализации</th>
-
-     </tr>
-     <tr>
-         <td>ПП Владимировское</td>
-         <td>Свинокомплекс</td>
-         <td>2020</td> 
-     </tr>
-     <tr>
-         <td>Агрокомбинат Слобожанский</td>
-         <td>Комбикормовый завод</td>
-         <td>2014</td>
-        </tr>
-
-     <tr>
-         <td>ООО Серволюкс</td>
-         <td>Свинокомплекс</td>
-         <td>2012</td>
-
-     </tr>
-
-
-
- </table>
- <hr>
- <h2>Связаться с нами</h2>
- <form action="/">
-     <label for="name">Ваше имя</label>
-<input type="text" id="name" placeholder="Ввести имя...">
-<br>
-<label for="email">Email</label>
-<input type="email" id="email" placeholder="Ввести почту...">
-<br>
-<label for="text">Ваше сообщение</label>
-<br>
-<textarea name="" id="text" cols="30" rows="10" placeholder="Ввести сообщение..."></textarea>
-<br>
-<input type="submit" value="Связаться!">
- </form>
-
+</div>
 
 </body>
 </html>
